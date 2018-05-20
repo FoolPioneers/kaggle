@@ -115,6 +115,9 @@ local.properties
 .settings/
 .loadpath
  
+## .gitignore for python
+*.pyc
+
 # External tool builders
 .externalToolBuilders/
  
