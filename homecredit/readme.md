@@ -103,7 +103,7 @@ There is a) one row for every payment that was made plus b) one row each for mis
     └── sample_submission.csv
 ```
 1. code 目录下放置公用的数据处理代码；
-2. data放置数据，现在全部都是捷信提供的数据，后续的处理以后的变量也置于这个目录下。code目录下的变量处理程序输出目录最好是data目录，这样其他人可以在自己的电脑上生成变量数据和模型数据。因为这个数据量比较大，大家还是各自下载对应的数据，只上传处理代码就好；
+2. data放置数据，现在全部都是捷信提供的数据，后续的处理以后的变量也置于这个目录下。code目录下的变量处理程序输出目录最好是data目录，这样其他人可以在自己的电脑上生成变量数据和模型数据。因为这个数据量比较大，大家还是各自下载对应的数据，只上传处理代码就好。数据的下载地址为[Home Credit Default Risk](https://www.kaggle.com/c/home-credit-default-risk/data)；
 3. long.li个人代码目录，在一级目录下可以建自己的个人代码，因为每个人都可能搭建自己的模型，可以在自己的目录下训练，最后能导出来就行；
 4. material目录，存放一些参考资料，现在是字段的说明文件和Python版的变量代码参考文件
 5. model 最终模型存放目录,所有文件以个人代号开头，如loveletter，panda，gavin...
@@ -128,4 +128,4 @@ There is a) one row for every payment that was made plus b) one row each for mis
 + 样本数据都从data目录读取；
 + 每个人的模型都使用同意的入口函数main， R可以使用代号前缀+main来作为入口函数；
 + 模型输出为一个或多个分数，为了保证模型融合标准化，预测分数都转为log(p/(1-p))的形式；
-+ 模型分的命名都以名称代号起头，避免重名	
++ 模型分的命名都以名称代号起头，避免重名;
