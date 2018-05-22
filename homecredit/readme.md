@@ -129,3 +129,16 @@ There is a) one row for every payment that was made plus b) one row each for mis
 + 每个人的模型都使用同意的入口函数main， R可以使用代号前缀+main来作为入口函数；
 + 模型输出为一个或多个分数，为了保证模型融合标准化，预测分数都转为log(p/(1-p))的形式；
 + 模型分的命名都以名称代号起头，避免重名;
+
+## 数据描述更新
++ application_{train|test}.csv
+	+ 申请表单表，含客户填写信息以及外部查询汇总信息 	
++ bureau.csv
+	+ 外部征信明细表，需要确定一个申请是否存在多条记录+ bureau_balance.csv
+	+ 关联bureau.csv， 每月账户状态表
++ POS\_CASH_balance.csv
+	+ 现金贷每月账户状态表+ credit\_card_balance.csv
+	+ 循环账户每月账户状态表
++ previous\_application.csv
+	+ 历史捷信内部申请信息表+ installments_payments.csv
+	+ 分析还款计划表
