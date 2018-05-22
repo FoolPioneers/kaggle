@@ -142,3 +142,27 @@ There is a) one row for every payment that was made plus b) one row each for mis
 + previous\_application.csv
 	+ 历史捷信内部申请信息表+ installments_payments.csv
 	+ 分析还款计划表
+
+## 会议记录
+### 2018.05.22
+#### 议题
++ 审批还款流程说明
++ 数据表结构讨论
++ 分工及计划
+
+#### 分工及计划
++ EDA（本周结束）
+	+ Daisy ：application_{train|test}.csv
+	+ Panda：POS\_CASH_balance.csv, installments_payments.csv
+	+ Gavin: bureau.csv, bureau_balance.csv
+	+ loveletter: credit\_card_balance.csv, installments_payments.csv
+	+ 鸡腿堡: previous\_application.csv
++ 周末会议议题
+	+ 变量设计讨论
+	+ 变量构造分工及形式确认
+	+ 模型方法确认
+	+ 代码规范及目录规范确认
+
+#### 注意事项
++ EDA在标准汇总统计的基础上，还需补充子表与主表之间的对应关系
++ 变量构造可以参考之前的文档，最好有新的变量构造方法
