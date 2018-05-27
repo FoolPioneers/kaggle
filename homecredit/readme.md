@@ -153,9 +153,9 @@ There is a) one row for every payment that was made plus b) one row each for mis
 #### 分工及计划
 + EDA（本周结束）
 	+ Daisy ：application_{train|test}.csv
-	+ Panda：POS\_CASH_balance.csv, installments_payments.csv
+	+ Panda：POS\_CASH\_balance.csv, installments_payments.csv
 	+ Gavin: bureau.csv, bureau_balance.csv
-	+ loveletter: credit\_card_balance.csv, installments_payments.csv
+	+ loveletter: credit\_card\_balance.csv, installments_payments.csv
 	+ 鸡腿堡: previous\_application.csv
 + 周末会议议题
 	+ 变量设计讨论
